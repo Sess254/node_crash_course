@@ -1,0 +1,32 @@
+{
+  "name": "node_crash_course",
+  "version": "1.0.0",
+  "description": "Interactive learning of node js",
+  "keywords": [],
+  "homepage": "https://github.com/Sess254/node_crash_course#readme",
+  "bugs": {
+    "url": "https://github.com/Sess254/node_crash_course/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sess254/node_crash_course.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "files.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ejs": "^5.0.2",
+    "express": "^5.2.1",
+    "lodash": "^4.18.1",
+    "mongoose": "^9.6.1",
+    "morgan": "^1.10.1"
+  }
+}
